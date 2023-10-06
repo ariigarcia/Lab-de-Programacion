@@ -4,6 +4,10 @@ import tkinter as tk
 from datetime import datetime
 from tkinter import ttk
 #Esta es la funciòn que agrega una tarea
+
+#def funciondeprueba():
+     
+
 def agregar():
         today = datetime.today()
         fecha = f"{today.day}/{today.month}/{today.year}"
@@ -42,5 +46,6 @@ salir_btn = tkinter.Button(main_window, bg=  "red", text="salir", command = sali
 btn_guardar.pack()
 borrar_btn.pack()
 salir_btn.pack()   
+#botones
 treeview.pack()
 main_window.mainloop()   
